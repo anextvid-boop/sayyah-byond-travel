@@ -229,44 +229,6 @@ document.querySelector('.premium-form').addEventListener('submit', function(e) {
     btn.style.color = '#020405';
 });
 
-// 8. Global Footprint Metrics Dashboard ScrollTrigger Count-up Animation
-const footprintDashboard = document.querySelector('.footprint-dashboard');
-if (footprintDashboard) {
-    const metricNumbers = document.querySelectorAll('.metric-number');
-    metricNumbers.forEach(metric => {
-        const targetVal = parseInt(metric.getAttribute('data-target'), 10);
-        const obj = { value: 0 };
-        gsap.to(obj, {
-            value: targetVal,
-            duration: 2.5,
-            ease: "power2.out",
-            scrollTrigger: {
-                trigger: footprintDashboard,
-                start: "top 85%",
-                toggleActions: "play none none reverse"
-            },
-            onUpdate: function() {
-                let currentVal = Math.floor(obj.value);
-                if (targetVal === 100) {
-                    metric.textContent = currentVal + '%';
-                } else if (targetVal === 3668 || targetVal === 3738) {
-                    metric.textContent = currentVal.toLocaleString();
-                } else {
-                    metric.textContent = currentVal;
-                }
-            },
-            onComplete: function() {
-                if (targetVal === 100) {
-                    metric.textContent = targetVal + '%';
-                } else if (targetVal === 3668 || targetVal === 3738) {
-                    metric.textContent = targetVal.toLocaleString();
-                } else {
-                    metric.textContent = targetVal;
-                }
-            }
-        });
-    });
-}
 
 // 9. Interactive B2B Outreach Email Simulator
 const outreachData = {
