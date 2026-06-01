@@ -249,103 +249,18 @@
         </div>
     </section>
 
-    <!-- Campaigns & Footprint Section -->
-    <section id="campaigns" class="campaigns-section section-padding">
+    <!-- Bespoke Collaborations & Partnerships -->
+    <section class="pricing-section section-padding">
         <div class="container">
-            <h2 class="section-title">Case Studies & Visual Campaigns</h2>
-            <div class="case-studies-grid">
-                <!-- Case 1 -->
-                <div class="case-study-card reveal-card">
-                    <span class="case-tag">Hotels & Resorts</span>
-                    <h3>Sanctuary Curation</h3>
-                    <p>Delivered 3 storytelling-driven vertical social Reels and 15 premium interior architecture and drone photographs highlighting the signature villas, private pool decks, and floating menus for Belmond Hotel Cipriani (Venice, Italy).</p>
-                </div>
-
-                <!-- Case 2 -->
-                <div class="case-study-card reveal-card">
-                    <span class="case-tag">Luxury Rail</span>
-                    <h3>Highland Heritage</h3>
-                    <p>Produced a high-production campaign documenting Edwardian country house design, Bamford Haybarn Spa car details, and glens of Scotland on the Belmond Royal Scotsman, capturing 3 reels and 12 fully licensed heritage travel photos.</p>
-                </div>
-
-                <!-- Case 3 -->
-                <div class="case-study-card reveal-card">
-                    <span class="case-tag">Commercial Aviation</span>
-                    <h3>Sky-Dining Storytelling</h3>
-                    <p>Captured all-business class transatlantic business transits, exclusive Hangar lounges, and fine-dining cuisines for La Compagnie (France), producing 3 slow Reels and 12 premium interior cabin photos.</p>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
-
-
-
-    <!-- B2B Outreach & Campaign Center -->
-    <section id="outreach" class="outreach-section section-padding">
-        <div class="container">
-            <h2 class="section-title">B2B Campaign & Outreach Center</h2>
-            <div class="outreach-intro" style="max-width: 800px; margin-bottom: 4rem;">
-                <p style="font-size: 1.25rem; line-height: 1.7; color: var(--text-secondary);">
-                    Explore how we shoot off individualized cold pitches in real-time. Select a target category and a curated brand from our database to view the fully personalized pitch template compiled dynamically for their unique assets.
+            <div class="bespoke-collab-wrap reveal-card" style="background: rgba(255, 255, 255, 0.01); border: 1px solid rgba(255, 255, 255, 0.05); padding: 5rem clamp(2rem, 5%, 6rem); border-radius: 8px; text-align: center; max-width: 900px; margin: 0 auto; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3); position: relative; overflow: hidden;">
+                <div style="position: absolute; inset: 0; background: radial-gradient(circle at center, rgba(225, 198, 153, 0.03) 0%, transparent 70%); pointer-events: none; z-index: 1;"></div>
+                <span class="panorama-tag" style="position: relative; z-index: 2;">B2B COLLABORATION</span>
+                <h3 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: var(--accent); margin-bottom: 1.5rem; letter-spacing: -1px; position: relative; z-index: 2;">Bespoke Production & Partnerships</h3>
+                <p style="font-size: 1.2rem; line-height: 1.8; color: var(--text-secondary); max-width: 750px; margin: 0 auto 3rem auto; position: relative; z-index: 2;">
+                    Every luxury property, charter route, and sponsorship campaign has a unique story to capture. I work exclusively on a bespoke commission basis, crafting tailored production packages, commercial visual licenses, and custom brand sponsorships built around your precise aesthetic objectives.
                 </p>
+                <a href="#contact" class="btn-submit magnetic" style="display: inline-flex; align-self: center; text-decoration: none; position: relative; z-index: 2; margin: 0 auto;">Get a Custom Quote <span>→</span></a>
             </div>
-
-            <!-- Interactive Email Simulator -->
-            <div class="email-simulator-container reveal-card">
-                <div class="simulator-controls">
-                    <div class="control-group">
-                        <label for="sector-select">Select Category</label>
-                        <select id="sector-select" class="premium-select">
-                            <option value="resorts">Hotels & Resorts</option>
-                            <option value="aviation">Commercial Aviation</option>
-                            <option value="rail">Luxury Rail</option>
-                            <option value="sponsors">Brand Sponsors</option>
-                        </select>
-                    </div>
-                    <div class="control-group">
-                        <label for="brand-select">Select Target Brand</label>
-                        <select id="brand-select" class="premium-select">
-                            <!-- Populated dynamically via JS -->
-                        </select>
-                    </div>
-                </div>
-
-                <!-- Mock Email Client UI -->
-                <div class="mock-email-client">
-                    <div class="email-header-bar">
-                        <div class="window-dot red"></div>
-                        <div class="window-dot yellow"></div>
-                        <div class="window-dot green"></div>
-                        <span class="window-title">outreach_sequence_compiled.eml</span>
-                    </div>
-                    <div class="email-meta-fields">
-                        <div class="meta-row">
-                            <span class="meta-label">To:</span>
-                            <span id="email-to" class="meta-value">roberto.baccari@belmond.com</span>
-                        </div>
-                        <div class="meta-row">
-                            <span class="meta-label">Subject:</span>
-                            <span id="email-subject" class="meta-value">Brand Collaboration: Cinematic Visual Campaign for Belmond Hotel Cipriani</span>
-                        </div>
-                    </div>
-                    <div class="email-body-content">
-                        <pre id="email-body">Loading individualized template...</pre>
-                    </div>
-                </div>
-                  <!-- Bespoke Collaborations & Partnerships -->
-            <div class="pricing-container section-padding" style="padding-top: 6rem; padding-bottom: 2rem;">
-                <div class="bespoke-collab-wrap reveal-card" style="background: rgba(255, 255, 255, 0.01); border: 1px solid rgba(255, 255, 255, 0.05); padding: 5rem clamp(2rem, 5%, 6rem); border-radius: 8px; text-align: center; max-width: 900px; margin: 0 auto; box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3); position: relative; overflow: hidden;">
-                    <div style="position: absolute; inset: 0; background: radial-gradient(circle at center, rgba(225, 198, 153, 0.03) 0%, transparent 70%); pointer-events: none; z-index: 1;"></div>
-                    <span class="panorama-tag" style="position: relative; z-index: 2;">B2B COLLABORATION</span>
-                    <h3 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; color: var(--accent); margin-bottom: 1.5rem; letter-spacing: -1px; position: relative; z-index: 2;">Bespoke Production & Partnerships</h3>
-                    <p style="font-size: 1.2rem; line-height: 1.8; color: var(--text-secondary); max-width: 750px; margin: 0 auto 3rem auto; position: relative; z-index: 2;">
-                        Every luxury property, charter route, and sponsorship campaign has a unique story to capture. I work exclusively on a bespoke commission basis, crafting tailored production packages, commercial visual licenses, and custom brand sponsorships built around your precise aesthetic objectives.
-                    </p>
-                    <a href="#contact" class="btn-submit magnetic" style="display: inline-flex; align-self: center; text-decoration: none; position: relative; z-index: 2; margin: 0 auto;">Get a Custom Quote <span>→</span></a>
-                </div>
-            </div>        </div>
         </div>
     </section>
 
