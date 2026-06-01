@@ -1,7 +1,7 @@
-# Byond Travel - Planning Document
+# Sayyah Travel - Planning Document
 
 ## 1. Project Overview
-- **Brand Name:** Byond Travel (Deliberately spelled without the 'e' for a unique, modern edge)
+- **Brand Name:** Sayyah Travel (A conversational, energetic, and highly ownable brand)
 - **Core Focus:** Global travel content creation, encompassing photography, videography, and marketing.
 - **Aesthetic:** Premium, adventurous, breathtaking, and professional. 
 - **Color Scheme:** Inspired by the Earth and water—Deep ocean blues, azure, crisp whites, and subtle earthy tones (sand, slate).
@@ -15,7 +15,7 @@
 ## 3. Website Architecture (Single-Page Layout)
 1. **Hero Section:** 
    - Full-screen breathtaking image (or image slider).
-   - Bold Headline: e.g., "Go Byond." or "Capturing the World, Differently."
+   - Bold Headline: e.g., "SAYYAH." or "Capturing the World, Differently."
    - Subheadline: "Photography, Videography & Global Marketing."
    - Call-to-Action (CTA) button: "Explore My Work"
 2. **About / Mission:**
@@ -32,7 +32,7 @@
 ## 4. Technical Stack
 - **Core:** HTML5 & Vanilla JavaScript.
 - **Styling:** Vanilla CSS (utilizing CSS variables for the color palette, Flexbox/Grid for layout). No heavy frameworks to ensure maximum performance and customizability.
-- **Deployment:** GitHub Pages. The repository will be set up so that it can be instantly hosted and accessed via a standard GitHub Pages URL (e.g., `username.github.io/byondtravel`).
+- **Deployment:** GitHub Pages. The repository will be set up so that it can be instantly hosted and accessed via a standard GitHub Pages URL (e.g., `username.github.io/sayyah-travel`).
 
 ## 5. Execution Plan
 1. **Asset Generation:** Generate 3-4 stunning, high-quality images of travel destinations (mountains, oceans, cityscapes) to use as background and gallery images.
