@@ -417,7 +417,7 @@ Jahroinimo
 Lead Director, sayyah-byond-travel & ANEXTVID
 sayyah-byond-travel Staging: ${portfolioLink}
 Photography Portfolio: https://anextvid-boop.github.io/anextvid-landing/
-anextvid@gmail.com | www.anextvid.com`;
+sayyahbyondtravel@gmail.com | www.anextvid.com`;
     } else if (sector === "rail" || sector === "resorts") {
         let brandName = brand.name.split(" (")[0];
         if (sector === "rail") {
@@ -442,7 +442,7 @@ Jahroinimo
 Lead Director, sayyah-byond-travel & ANEXTVID
 sayyah-byond-travel Staging: ${portfolioLink}
 Photography Portfolio: https://anextvid-boop.github.io/anextvid-landing/
-anextvid@gmail.com | www.anextvid.com`;
+sayyahbyondtravel@gmail.com | www.anextvid.com`;
     } else {
         // aviation
         subject = `Flight Partnership / sponsorship? ${brand.name.split(" (")[0]} x sayyah-byond-travel`;
@@ -462,7 +462,7 @@ Jahroinimo
 Lead Director, sayyah-byond-travel & ANEXTVID
 sayyah-byond-travel Staging: ${portfolioLink}
 Photography Portfolio: https://anextvid-boop.github.io/anextvid-landing/
-anextvid@gmail.com | www.anextvid.com`;
+sayyahbyondtravel@gmail.com | www.anextvid.com`;
     }
 
     emailSubject.textContent = subject;
