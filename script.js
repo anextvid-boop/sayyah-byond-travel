@@ -396,7 +396,7 @@ function updateEmailContent(brand, sector) {
     
     let subject = "";
     let body = "";
-    const portfolioLink = "https://anextvid-boop.github.io/sayyah-travel/";
+    const portfolioLink = "https://anextvid-boop.github.io/sayyah-byond-travel/";
     const linkNote = "(please note this temporary staging site uses visual placeholders which we will immediately update with the custom visual assets we produce with you)";
     
     if (sector === "sponsors") {

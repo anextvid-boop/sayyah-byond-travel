@@ -32,7 +32,7 @@
 ## 4. Technical Stack
 - **Core:** HTML5 & Vanilla JavaScript.
 - **Styling:** Vanilla CSS (utilizing CSS variables for the color palette, Flexbox/Grid for layout). No heavy frameworks to ensure maximum performance and customizability.
-- **Deployment:** GitHub Pages. The repository will be set up so that it can be instantly hosted and accessed via a standard GitHub Pages URL (e.g., `username.github.io/sayyah-travel`).
+- **Deployment:** GitHub Pages. The repository will be set up so that it can be instantly hosted and accessed via a standard GitHub Pages URL (e.g., `username.github.io/sayyah-byond-travel`).
 
 ## 5. Execution Plan
 1. **Asset Generation:** Generate 3-4 stunning, high-quality images of travel destinations (mountains, oceans, cityscapes) to use as background and gallery images.
