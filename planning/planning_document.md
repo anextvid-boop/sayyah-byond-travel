@@ -1,7 +1,7 @@
-# Sayyah Travel - Planning Document
+# Sayyah Byond Travel - Planning Document
 
 ## 1. Project Overview
-- **Brand Name:** Sayyah Travel (A conversational, energetic, and highly ownable brand)
+- **Brand Name:** Sayyah Byond Travel (A conversational, energetic, and highly ownable brand combining Sayyah and Byond Travel)
 - **Core Focus:** Global travel content creation, encompassing photography, videography, and marketing.
 - **Aesthetic:** Premium, adventurous, breathtaking, and professional. 
 - **Color Scheme:** Inspired by the Earth and water—Deep ocean blues, azure, crisp whites, and subtle earthy tones (sand, slate).
@@ -15,7 +15,7 @@
 ## 3. Website Architecture (Single-Page Layout)
 1. **Hero Section:** 
    - Full-screen breathtaking image (or image slider).
-   - Bold Headline: e.g., "SAYYAH." or "Capturing the World, Differently."
+   - Bold Headline: e.g., "SAYYAH BYOND. TRAVEL" or "Capturing the World, Differently."
    - Subheadline: "Photography, Videography & Global Marketing."
    - Call-to-Action (CTA) button: "Explore My Work"
 2. **About / Mission:**

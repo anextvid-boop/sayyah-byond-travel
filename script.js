@@ -403,7 +403,7 @@ function updateEmailContent(brand, sector) {
         subject = `Sponsorship Proposal: Cinematic Travel Documentary powered by ${brand.name.split(" (")[0]}`;
         body = `Dear ${brand.contact.split(" ")[0]},
  
-My name is Jahroinimo, Lead Director of sayyah-travel (${portfolioLink}) — a new specialized luxury travel media agency backed by my established production company ANEXTVID (www.anextvid.com) and my personal photography portfolio (https://anextvid-boop.github.io/anextvid-landing/). To get the ball rolling, we are looking for brand sponsors to support my one-person production crew with ${brand.support} in exchange for custom, high-end cinematic assets.
+My name is Jahroinimo, Lead Director of sayyah-byond-travel (${portfolioLink}) — a new specialized luxury travel media agency backed by my established production company ANEXTVID (www.anextvid.com) and my personal photography portfolio (https://anextvid-boop.github.io/anextvid-landing/). To get the ball rolling, we are looking for brand sponsors to support my one-person production crew with ${brand.support} in exchange for custom, high-end cinematic assets.
  
 Specifically, we want to deliver a bespoke package of vertical social Reels, professional product and detail photography, and commercial B-roll highlighting ${brand.focus}. You can preview our specialized travel layout on our staging site here: ${portfolioLink} ${linkNote}.
  
@@ -414,21 +414,21 @@ Could you let us know who is the best person to discuss sponsorships and travel 
 With warm regards,
  
 Jahroinimo
-Lead Director, sayyah-travel & ANEXTVID
-sayyah-travel Staging: ${portfolioLink}
+Lead Director, sayyah-byond-travel & ANEXTVID
+sayyah-byond-travel Staging: ${portfolioLink}
 Photography Portfolio: https://anextvid-boop.github.io/anextvid-landing/
 anextvid@gmail.com | www.anextvid.com`;
     } else if (sector === "rail" || sector === "resorts") {
         let brandName = brand.name.split(" (")[0];
         if (sector === "rail") {
-            subject = `Transit Partnership / sponsorship? ${brandName} x sayyah-travel`;
+            subject = `Transit Partnership / sponsorship? ${brandName} x sayyah-byond-travel`;
         } else {
-            subject = `Visual Partnership / accommodation support? ${brandName} x sayyah-travel`;
+            subject = `Visual Partnership / accommodation support? ${brandName} x sayyah-byond-travel`;
         }
         
         body = `Dear ${brand.contact.split(" ")[0]},
  
-My name is Jahroinimo, Lead Director of sayyah-travel (${portfolioLink}) — a new specialized luxury travel media agency backed by my established production company ANEXTVID (www.anextvid.com) and my personal photography portfolio (https://anextvid-boop.github.io/anextvid-landing/). To get the ball rolling and establish our footprint, we are seeking premier partners to host my one-person production crew at ${brandName} in exchange for custom, high-end cinematic assets.
+My name is Jahroinimo, Lead Director of sayyah-byond-travel (${portfolioLink}) — a new specialized luxury travel media agency backed by my established production company ANEXTVID (www.anextvid.com) and my personal photography portfolio (https://anextvid-boop.github.io/anextvid-landing/). To get the ball rolling and establish our footprint, we are seeking premier partners to host my one-person production crew at ${brandName} in exchange for custom, high-end cinematic assets.
  
 Specifically, we want to deliver a bespoke package of vertical social Reels and high-resolution commercial photography highlighting ${brand.focus}. You can preview our specialized travel layout on our staging site here: ${portfolioLink} ${linkNote}.
  
@@ -439,16 +439,16 @@ Could you let us know who is the best person to discuss sponsorships and travel 
 With warm regards,
  
 Jahroinimo
-Lead Director, sayyah-travel & ANEXTVID
-sayyah-travel Staging: ${portfolioLink}
+Lead Director, sayyah-byond-travel & ANEXTVID
+sayyah-byond-travel Staging: ${portfolioLink}
 Photography Portfolio: https://anextvid-boop.github.io/anextvid-landing/
 anextvid@gmail.com | www.anextvid.com`;
     } else {
         // aviation
-        subject = `Flight Partnership / sponsorship? ${brand.name.split(" (")[0]} x sayyah-travel`;
+        subject = `Flight Partnership / sponsorship? ${brand.name.split(" (")[0]} x sayyah-byond-travel`;
         body = `Dear ${brand.contact.split(" ")[0]},
  
-My name is Jahroinimo, Lead Director of sayyah-travel (${portfolioLink}) — a new specialized luxury travel media agency backed by my established production company ANEXTVID (www.anextvid.com) and my personal photography portfolio (https://anextvid-boop.github.io/anextvid-landing/). To get the ball rolling, we are looking for flight sponsors to host my one-person production crew on your ${brand.location} routes in exchange for custom, high-end cinematic assets.
+My name is Jahroinimo, Lead Director of sayyah-byond-travel (${portfolioLink}) — a new specialized luxury travel media agency backed by my established production company ANEXTVID (www.anextvid.com) and my personal photography portfolio (https://anextvid-boop.github.io/anextvid-landing/). To get the ball rolling, we are looking for flight sponsors to host my one-person production crew on your ${brand.location} routes in exchange for custom, high-end cinematic assets.
  
 Specifically, we want to deliver a bespoke package of vertical social Reels and high-resolution commercial photography highlighting ${brand.focus}. You can preview our specialized travel layout on our staging site here: ${portfolioLink} ${linkNote}.
  
@@ -459,8 +459,8 @@ Could you let us know who is the best person to discuss sponsorships and travel 
 With warm regards,
  
 Jahroinimo
-Lead Director, sayyah-travel & ANEXTVID
-sayyah-travel Staging: ${portfolioLink}
+Lead Director, sayyah-byond-travel & ANEXTVID
+sayyah-byond-travel Staging: ${portfolioLink}
 Photography Portfolio: https://anextvid-boop.github.io/anextvid-landing/
 anextvid@gmail.com | www.anextvid.com`;
     }
